@@ -3,6 +3,9 @@ from Student import Student
 
 VERSION = 2.0
 
+studentList = []
+
+
 def clearScreen():
   command = 'clear'
   if os.name in ('nt', 'dos'):
@@ -10,7 +13,6 @@ def clearScreen():
 
   os.system(command)
 
-studentList = []
 
 def selectNum():
   menu = (f'부경대학교 포털시스템 v{VERSION}\n'

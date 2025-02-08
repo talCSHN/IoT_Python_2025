@@ -55,7 +55,7 @@ def search_movie(items: list,title: str):
             print(item)
 
 def del_movie(items: list, title: str):
-    for i, item in enumerate(items):
+    for i, item in enumerate(items): # 인덱스 i와 요소 item 반환
         if item.isNameExist(title):
             del items[i]    # 인덱스로 리스트 요소 하나를 삭제
 

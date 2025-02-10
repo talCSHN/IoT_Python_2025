@@ -40,13 +40,13 @@ def run():
         elif sel_menu == 4:
             print('영화 삭제')
             title = input('삭제할 영화명 입력 > ')
-            movieToDelte = None
+            movieToDelete = None
             for movie in lst_movie:
                 if movie.getTitle() == title:
-                    movieToDelte = title
+                    movieToDelete = title
                     break
-            if movieToDelte:
-                del_movie(lst_movie, movieToDelte)
+            if movieToDelete:
+                del_movie(lst_movie, movieToDelete)
                 print('삭제 성공')
             else:
                 print('삭제 실패')

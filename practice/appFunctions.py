@@ -84,19 +84,36 @@ def run():
   while True:
     selectedNum = selectNum()
     if selectedNum == 1:
-      student = setStudent()
-      studentList.append(student)
+      try:
+        student = setStudent()
+        studentList.append(student)
+        print('학생 등록 성공')
+      except Exception as e:
+        print(f'학생 등록 실패 {e}')
+
     elif selectedNum == 2:
       print('학생 정보 보기')
       showStudent(studentList)
+
     elif selectedNum == 3:
       print('학생 검색')
       firstName = input('검색할 학생 이름 입력 > ')
       searchStudent(studentList, firstName)
+
     elif selectedNum == 4:
       print('학생 삭제')
       name = input('삭제할 학생 입력 > ')
-      deleteStudent(studentList, name)
+      studentToDelete = None
+      for student in studentList:
+        if student.name == name:
+          studentToDelete = name
+          break
+      if studentToDelete:
+        deleteStudent(studentList, studentToDelete)
+        print('삭제 성공')
+      else:
+        print('삭제 실패')
+
     elif selectedNum == 5:
       saveStudent(studentList)
       break

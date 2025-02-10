@@ -141,7 +141,7 @@ IoT 개발자 기초 프로그래밍 언어 Repository
             - 예외처리 : 입력시 바로 엔터, 입력시 4개의 요소를 입력하지 않으면
             - 화면 편집 : 검색이나 출력시 데이터 수 표시
 
-            
+
 
 https://github.com/user-attachments/assets/e075d753-f57f-492d-8ca9-00c7c6fe7dc2
 

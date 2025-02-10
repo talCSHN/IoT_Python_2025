@@ -147,7 +147,7 @@ https://github.com/user-attachments/assets/e075d753-f57f-492d-8ca9-00c7c6fe7dc2
 
 
 
-    - 챗GPT 윈도우앱(tkinter) 만들기
+        - 챗GPT 윈도우앱(tkinter) 만들기
         
     - 주피터노트북 학습
 

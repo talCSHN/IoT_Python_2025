@@ -40,7 +40,16 @@ def run():
         elif sel_menu == 4:
             print('영화 삭제')
             title = input('삭제할 영화명 입력 > ')
-            del_movie(lst_movie, title)
+            movieToDelte = None
+            for movie in lst_movie:
+                if movie.getTitle() == title:
+                    movieToDelte = title
+                    break
+            if movieToDelte:
+                del_movie(lst_movie, movieToDelte)
+                print('삭제 성공')
+            else:
+                print('삭제 실패')
         elif sel_menu == 5:
             # print('종료')
             # 종료 직전 DB생성하고 완료

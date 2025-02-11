@@ -43,19 +43,6 @@ class WindowApp(Tk):
         self.textMessage.focus_set()
 
         self.protocol('WM_DELETE_WINDOW', self.onClosing)
-    
-    # def initAiWindow(self):
-    #     self.myFont = Font(family='NanumGothic', size=10)
-    #     self.textResult = ScrolledText(self, wrap=WORD, bg='#000000', fg='white', font=self.myFont)  # bg='black'
-    #     self.textResult.pack(fill=BOTH, expand=True)
-
-    #     self.textResult.tag_configure('user', font=self.boldFont, foreground='yellow')
-    #     self.textResult.tag_configure('ai', font=self.myFont, foreground='limegreen') #89F336
-    #     self.textResult.tag_configure('error', font=self.boldFont, foreground='red')
-
-
-
-    # 나머지 부분 복사
 
     def keypress(self, event):
         if event.char == '\r':

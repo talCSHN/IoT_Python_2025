@@ -13,7 +13,7 @@ from ModelClass import ChatModel
 class Controller:
     def __init__(self):
         # 스프링 @Autowired
-        self.model = ChatModel(api_key='AIzaSyBTRvq8zKFU7ubaf1MTv0TVtB7IsYuNdS8')
+        self.model = ChatModel(self)
         self.view = WindowApp(self)
 
     def responseMessage(self):  # 내용 수정

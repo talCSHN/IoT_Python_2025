@@ -194,3 +194,20 @@ https://github.com/user-attachments/assets/e075d753-f57f-492d-8ca9-00c7c6fe7dc2
 <!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
 <!-- ![py001](./image/py001.png) -->
 <img src="./image/py001.png" width="400">
+
+## 7일차
+- 파이썬 응용
+    - 토이프로젝트
+        - ChatGPT 유사앱 - 구글 Gemini API
+    - 실습
+        - Gemini Chat App -> **클래스형태**로 변경
+    
+    - 실행파일 만들기
+        - `pyinstaller` 모듈 설치
+        - > pip install pyinstaller
+        - > pyinstaller --onefile python_file.py
+        - 같이 실행되는 터미널을 제거하려면
+        - > pyinstaller --onefile --noconsole 파이썬파일명
+        - 아이콘 등의 리소스를 dist 폴더에 복사
+
+        

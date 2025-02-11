@@ -202,12 +202,14 @@ https://github.com/user-attachments/assets/e075d753-f57f-492d-8ca9-00c7c6fe7dc2
     - 실습
         - Gemini Chat App -> **클래스형태**로 변경
     
+- 파이썬 응용
     - 실행파일 만들기
         - `pyinstaller` 모듈 설치
-        - > pip install pyinstaller
-        - > pyinstaller --onefile python_file.py
-        - 같이 실행되는 터미널을 제거하려면
-        - > pyinstaller --onefile --noconsole 파이썬파일명
-        - 아이콘 등의 리소스를 dist 폴더에 복사
+            - pip install pyinstaller
+        - 실행파일 명령어(터미널에 실행)
+            - pyinstaller --onefile python_file.py
+            - 같이 실행되는 터미널을 제거하려면
+            - pyinstaller --onefile --noconsole 파이썬파일명
+            - 아이콘 등의 리소스를 dist 폴더에 복사
 
         

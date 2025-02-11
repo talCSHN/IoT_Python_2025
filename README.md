@@ -201,7 +201,13 @@ https://github.com/user-attachments/assets/e075d753-f57f-492d-8ca9-00c7c6fe7dc2
         - ChatGPT 유사앱 - 구글 Gemini API
     - 실습
         - Gemini Chat App -> **클래스형태**로 변경
-    
+
+
+
+https://github.com/user-attachments/assets/07a96eaf-d0c9-42b5-95ea-8c8930454fde
+
+
+
 - 파이썬 응용
     - 실행파일 만들기
         - `pyinstaller` 모듈 설치

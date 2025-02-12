@@ -228,7 +228,12 @@ https://github.com/user-attachments/assets/07a96eaf-d0c9-42b5-95ea-8c8930454fde
 
     - 토이 프로젝트
         - 블록깨기 게임
-        - 공의 x축 계산 방법 : $x = r \cdot \cos \theta$
-        - 공의 y축 계산 방법 : $y = r \cdot \sin \theta$
+        - 공의 위치에 대한 수식
+            - 공의 x축 계산 방법 : $x = r \cdot \cos \theta$
+            - 공의 y축 계산 방법 : $y = r \cdot \sin \theta$
+        - 공의 시작 방향, 경계 부분 문제 해결, 종료 후 다시 시작 로직
 <!-- $$ x = r \cdot \cos \thet $$ -->
 <img src="./image/py004.gif" width="700" height="450">
+
+## 9일차
+- 코딩테스트

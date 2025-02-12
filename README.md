@@ -218,4 +218,7 @@ https://github.com/user-attachments/assets/07a96eaf-d0c9-42b5-95ea-8c8930454fde
             - pyinstaller --onefile --noconsole 파이썬파일명
             - 아이콘 등의 리소스를 dist 폴더에 복사
 
-        
+## 8일차
+- 파이썬 응용
+    - GUI 중 PyGame
+        - 

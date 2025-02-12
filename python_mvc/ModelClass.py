@@ -8,9 +8,10 @@ import google.generativeai as genai
 
 
 class ChatModel:
-    def __init__(self,api_key):
-        genai.configure(api_key=api_key)
+    def __init__(self,controller):
+        genai.configure(api_key='AIzaSyBTRvq8zKFU7ubaf1MTv0TVtB7IsYuNdS8')
         self.model = genai.GenerativeModel('gemini-1.5-flash')
+        self.controller = controller
         
     def getResponse(self, inputText):    
         try:

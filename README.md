@@ -221,4 +221,7 @@ https://github.com/user-attachments/assets/07a96eaf-d0c9-42b5-95ea-8c8930454fde
 ## 8일차
 - 파이썬 응용
     - GUI 중 PyGame
-        - 
+        - 기본 윈도우 학습
+        - 이벤트 처리
+        - 간단한 게임
+        - 이미지, 사운드 등 리소스 활용
